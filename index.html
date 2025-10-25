@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XB5JDJEVC8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB5JDJEVC8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XB5JDJEVC8');
+  </script>
 
-  gtag('config', 'G-XB5JDJEVC8');
-</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Florence Allison | Resume</title>
@@ -23,6 +23,16 @@
     .skills-list { columns: 2; -webkit-columns: 2; -moz-columns: 2; }
     .job-title { font-weight: bold; }
     .job-date { float: right; font-style: italic; color: #555; }
+
+    /* Profile Picture Styling */
+    .profile-pic {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #000;
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 <body>
@@ -30,6 +40,9 @@
 <div class="container my-5">
   <!-- Header -->
   <div class="text-center mb-4">
+    <!-- Profile Picture -->
+    <img src="profile.png" alt="Florence Allison Profile Picture" class="profile-pic">
+
     <h1 class="mb-0">Florence Allison</h1>
     <p class="lead">Digital Marketer & Graphic Designer</p>
     <div class="contact-info">
@@ -150,3 +163,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
